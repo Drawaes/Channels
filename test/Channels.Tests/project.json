@@ -1,4 +1,4 @@
-﻿{
+{
   "buildOptions": {
     "warningsAsErrors": true,
     "keyFile": "../../tools/Key.snk",
@@ -21,7 +21,9 @@
     "Channels.Networking.Windows.RIO": {
       "target": "project"
     },
-    "xunit": "2.2.0-beta2-build3300"
+    "xunit": "2.2.0-beta2-build3300",
+    "Channels.Networking.TLS": {"target": "project"},
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0"
   },
   "frameworks": {
     "netcoreapp1.0": {
